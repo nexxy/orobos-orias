@@ -1,0 +1,25 @@
+{
+  "name": "orobos-orias",
+  "version": "0.0.0",
+  "description": "Orobos Device Manager",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nexxy/orobos-orias"
+  },
+  "keywords": [
+    "physical",
+    "security",
+    "sensor",
+    "platform"
+  ],
+  "author": "Emily Rose",
+  "license": "MIT",
+  "dependencies": {
+    "optimist": "~0.3.4",
+    "dnode": "~1.0.1",
+    "buffertools": "~1.1.0",
+    "serialport": "~1.0.3",
+    "firmata": "~0.2.3"
+  }
+}
