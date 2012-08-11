@@ -12,6 +12,7 @@
 		, reportBuffer = new Buffer(0)
 		, buffertools = require('buffertools')
 		, dnode = require('dnode')
+		, util = require('util')
 		, net = require('net')
 		, sensor 
 		, server
@@ -31,21 +32,13 @@
 		var 
 			d = (new Date()).toLocaleString()
 			, args = Array.prototype.slice.call(arguments)
-			, str = ""
-			, len = args.length-1
+			, fmt = util.format(args.shift(), args)
 		;
 
-		str = args.shift();
-
-		for(var i = 0; i < len; i++) {
-
-			
-		};
-
+		
 		console.log(
 
-			["[", d, "] ", args.shift()].join('')
-			, args.length ? args : ''
+			["[", d, "] ", fmt].join('')
 		);
 	};
 
