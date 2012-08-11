@@ -10,11 +10,11 @@ _I have provided the arduino sketches for both a (single) magnetic door switch (
 
 ----------
 
-## Command-line Options:
+### Command-line Options:
 
 `node ./index.js --host <remote host> --port <remote port> --device <device path> --id <device ID>`
 
-### Details:
+#### Details:
   * `--host` __required__ _remote host (running [orobos-vine](https://github.com/nexxy/orobos-vine/) daemon)_
   * `--port` __required__ _remote port to connect on_
   * `--device` __required__ _device path to the arduino (e.g. `/dev/ttyACM0`)_
@@ -22,7 +22,7 @@ _I have provided the arduino sketches for both a (single) magnetic door switch (
 
 ----------
 
-## Dependencies:
+### Dependencies:
 
  * optimist
  * dnode
@@ -31,6 +31,6 @@ _I have provided the arduino sketches for both a (single) magnetic door switch (
 
 ----------
 
-## Arduino Sketches:
+### Arduino Sketches:
 
  * [open/closed circuit trigger](https://gist.github.com/3322493) (for use with something like [magnetic door switches](http://amzn.to/PLw41G))
