@@ -15,10 +15,10 @@ _I have provided the arduino sketches for both a (single) magnetic door switch (
 `node ./index.js --host <remote host> --port <remote port> --device <device path> --id <device ID>`
 
 ### Details:
-  * `--host` [required] (remote host (running [orobos-vine](https://github.com/nexxy/orobos-vine/) orobos-vine daemon))
-  * `--port` [required] (remote port to connect on)
-  * `--device` [required] (device path to the arduino (e.g. `/dev/ttyACM0`))
-  * `--id` [required] (device identifier, useful for multiple alarm "zones")
+  * `--host` __required__ _remote host (running [orobos-vine](https://github.com/nexxy/orobos-vine/) daemon)_
+  * `--port` __required__ _remote port to connect on_
+  * `--device` __required__ _device path to the arduino (e.g. `/dev/ttyACM0`)_
+  * `--id` __required__ _device identifier, useful for multiple alarm "zones"_
 
 ----------
 
