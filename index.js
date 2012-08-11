@@ -1,7 +1,7 @@
 ;(function() {
 
-	const USAGE = '$0 --host [remote host] --port [remote port]'
-		+ '--device [device path] --id [device ID]';
+	const USAGE = '$0 --host <remote host> --port <remote port>'
+		+ '--device <device path> --id <device ID>';
 
 	var
 		argv = require('optimist')
@@ -31,7 +31,16 @@
 		var 
 			d = (new Date()).toLocaleString()
 			, args = Array.prototype.slice.call(arguments)
+			, str = ""
+			, len = args.length-1
 		;
+
+		str = args.shift();
+
+		for(var i = 0; i < len; i++) {
+
+			
+		};
 
 		console.log(
 
@@ -299,7 +308,6 @@
 				}
 			});
 		}	
-
 	};
 
 	/**

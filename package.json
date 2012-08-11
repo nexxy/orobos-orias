@@ -1,6 +1,6 @@
 {
   "name": "orobos-orias",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Orobos Device Manager",
   "main": "index.js",
   "repository": {
@@ -20,6 +20,5 @@
     "dnode": "~1.0.1",
     "buffertools": "~1.1.0",
     "serialport": "~1.0.3",
-    "firmata": "~0.2.3"
   }
 }
