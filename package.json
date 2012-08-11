@@ -19,6 +19,6 @@
     "optimist": "~0.3.4",
     "dnode": "~1.0.1",
     "buffertools": "~1.1.0",
-    "serialport": "~1.0.3",
+    "serialport": "~1.0.3"
   }
 }
